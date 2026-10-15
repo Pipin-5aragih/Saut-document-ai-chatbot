@@ -1,0 +1,21 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private documents
+*.pdf
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Google Colab and Jupyter
+.ipynb_checkpoints/
+
+# Generated vector indexes and local data
+*.faiss
+*.index
